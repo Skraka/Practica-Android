@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var txtSaludo: TextView
     private lateinit var btnPulsar: Button
     private lateinit var btnLimpiar: Button
+    private lateinit var btnSalir: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,10 +33,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
     public fun iniciarComponentes(){
-        txtNombre = findViewById(R.id.txtNombre) as EditText
+        txtNombre = findViewById(R.id.txtNombreFL) as EditText
         txtSaludo = findViewById(R.id.txtSaludo) as TextView
         btnPulsar = findViewById(R.id.btnPulsar) as Button
         btnLimpiar = findViewById(R.id.btnLimpiar) as Button
+        btnSalir = findViewById(R.id.btnSalir) as Button
     }
 
     public fun eventosClic(){
@@ -43,15 +46,17 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Falto captura de nombre", Toast.LENGTH_SHORT).show()
             }
             else {
-                var strNobre: String = txtNombre.toString()
-                txtSaludo.text = "Hola $strNobre Como estas?"
+                val strNobre: String = txtNombre.text.toString()
+                txtSaludo.text = "Hola "+ strNobre +" Como estas?"
             }
         })
         btnLimpiar.setOnClickListener(View.OnClickListener {
             txtSaludo.text = ""
             txtNombre.setText("")
         })
-        //para cerrar la aplicacion es con Finish()
+        btnSalir.setOnClickListener(View.OnClickListener {
+            finish()
+        })
     }
 
 }

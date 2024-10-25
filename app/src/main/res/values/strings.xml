@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">App_Practica1</string>
+    <string name="app_name">App_Practica</string>
     <string name="nombre">Captura tu nombre</string>
+    <string name="titulo">Practica 01 Saludo</string>
     <string name="Limpiar">Limpiar</string>
     <string name="Pulsar">Pulsar</string>
+    <string name="Salir">Salir</string>
 </resources>
