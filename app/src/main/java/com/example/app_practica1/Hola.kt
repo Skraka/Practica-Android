@@ -1,5 +1,6 @@
 package com.example.app_practica1
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -11,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class Hola : AppCompatActivity() {
 
     private lateinit var txtNombre: EditText
     private lateinit var txtSaludo: TextView
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_hola)
         iniciarComponentes()
         eventosClic()
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -33,13 +34,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
     public fun iniciarComponentes(){
-        txtNombre = findViewById(R.id.txtNombreFL) as EditText
-        txtSaludo = findViewById(R.id.txtSaludo) as TextView
-        btnPulsar = findViewById(R.id.btnPulsar) as Button
-        btnLimpiar = findViewById(R.id.btnLimpiar) as Button
-        btnSalir = findViewById(R.id.btnSalir) as Button
+        txtNombre = findViewById<EditText>(R.id.txtNombreFL)!!
+        txtSaludo = findViewById<TextView>(R.id.txtSaludo)!!
+        btnPulsar = findViewById<Button>(R.id.btnPulsar)!!
+        btnLimpiar = findViewById<Button>(R.id.btnLimpiar)!!
+        btnSalir = findViewById<Button>(R.id.btnSalir)!!
     }
 
+    @SuppressLint("SetTextI18n")
     public fun eventosClic(){
         btnPulsar.setOnClickListener(View.OnClickListener {
             if (txtNombre.text.toString().contentEquals("")){
@@ -47,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             }
             else {
                 val strNobre: String = txtNombre.text.toString()
-                txtSaludo.text = "Hola "+ strNobre +" Como estas?"
+                txtSaludo.text = "Hola $strNobre Como estas?"
             }
         })
         btnLimpiar.setOnClickListener(View.OnClickListener {

@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="miColor">#8BC34A</color>
     <color name="otroColor">#00BCD4</color>
+    <color name="encabezado">#042234</color>
 </resources>

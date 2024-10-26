@@ -5,4 +5,20 @@
     <string name="Limpiar">Limpiar</string>
     <string name="Pulsar">Pulsar</string>
     <string name="Salir">Salir</string>
+
+    <string name="alumno">Alexis Ariel Garcia Ramirez</string>
+    <string name="matricula">22050720</string>
+    <string name="materia">Programacion movil</string>
+
+    <string name="hola">Hola</string>
+    <string name="imc">IMC</string>
+    <string name="conversion">Convertidor</string>
+    <string name="moneda">Conversion</string>
+    <string name="coti">Cotizacion</string>
+
+    <string name="altura">Captura la altura</string>
+    <string name="peso">Captura el peso</string>
+    <string name="msj">! Su resultado aparece aqui !</string>
+    <string name="calcular">Calcular</string>
+    <string name="cerrar">Cerrar</string>
 </resources>

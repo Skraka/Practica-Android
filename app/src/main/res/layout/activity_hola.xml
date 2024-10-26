@@ -5,14 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Hola">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20sp">
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,9 +19,7 @@
             android:text="@string/titulo"
             android:textSize="30sp"
             android:textColor="@color/otroColor"
-            android:paddingBottom="10sp">
-        </TextView>
-
+            android:paddingBottom="10sp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,9 +27,7 @@
             android:autofillHints=""
             android:hint="@string/nombre"
             android:inputType="text"
-            android:paddingBottom="10sp">
-        </EditText>
-
+            android:paddingBottom="10sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,33 +35,25 @@
             android:textColor="@color/miColor"
             android:textAlignment="center"
             android:textSize="15sp"
-            android:paddingBottom="10sp">
-        </TextView>
-
+            android:paddingBottom="10sp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnPulsar"
             android:text="@string/Pulsar"
-            android:paddingBottom="10sp">
-        </Button>
-
+            android:paddingBottom="10sp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnLimpiar"
             android:text="@string/Limpiar"
-            android:paddingBottom="10sp">
-        </Button>
-
+            android:paddingBottom="10sp"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnSalir"
             android:text="@string/Salir"
-            android:paddingBottom="10sp">
-        </Button>
-
+            android:paddingBottom="10sp"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
