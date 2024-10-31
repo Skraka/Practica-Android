@@ -1,11 +1,7 @@
 <resources>
     <string name="app_name">App_Practica</string>
-    <string name="nombre">Captura tu nombre</string>
-    <string name="titulo">Practica 01 Saludo</string>
-    <string name="Limpiar">Limpiar</string>
-    <string name="Pulsar">Pulsar</string>
-    <string name="Salir">Salir</string>
 
+    <!-- Strign Actividad Menu -->
     <string name="alumno">Alexis Ariel Garcia Ramirez</string>
     <string name="matricula">22050720</string>
     <string name="materia">Programacion movil</string>
@@ -16,9 +12,28 @@
     <string name="moneda">Conversion</string>
     <string name="coti">Cotizacion</string>
 
+    <!-- Strign Actividad Hola -->
+    <string name="nombre">Captura tu nombre</string>
+    <string name="titulo">Practica 01 Saludo</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Pulsar">Pulsar</string>
+    <string name="Salir">Salir</string>
+
+    <!-- Strign Actividad IMC -->
     <string name="altura">Captura la altura</string>
     <string name="peso">Captura el peso</string>
     <string name="msj">! Su resultado aparece aqui !</string>
     <string name="calcular">Calcular</string>
     <string name="cerrar">Cerrar</string>
+
+    <!-- Strign Actividad Grados -->
+    <string name="lblGrados">Grados</string>
+    <string name="lblCantidad">Captura la cantdad de grados</string>
+    <string name="cel">Celsius a Fahrenheit</string>
+    <string name="far">Fahrenheit a Celsius</string>
+    <string name="res">Resultado</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="btnCerrar">Cerrar</string>
+
 </resources>

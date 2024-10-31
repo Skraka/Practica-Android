@@ -33,7 +33,7 @@ class Hola : AppCompatActivity() {
             insets
         }
     }
-    public fun iniciarComponentes(){
+    fun iniciarComponentes(){
         txtNombre = findViewById<EditText>(R.id.txtNombreFL)!!
         txtSaludo = findViewById<TextView>(R.id.txtSaludo)!!
         btnPulsar = findViewById<Button>(R.id.btnPulsar)!!
@@ -42,7 +42,7 @@ class Hola : AppCompatActivity() {
     }
 
     @SuppressLint("SetTextI18n")
-    public fun eventosClic(){
+    fun eventosClic(){
         btnPulsar.setOnClickListener(View.OnClickListener {
             if (txtNombre.text.toString().contentEquals("")){
                 Toast.makeText(this, "Falto captura de nombre", Toast.LENGTH_SHORT).show()
