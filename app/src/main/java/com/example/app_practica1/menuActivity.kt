@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
@@ -52,6 +53,19 @@ class menuActivity : AppCompatActivity() {
         crvConvertidor.setOnClickListener(View.OnClickListener {
             val intent = Intent(this,Grados::class.java)
             startActivity(intent)
+        })
+        //asd
+        crvSalir.setOnClickListener(View.OnClickListener {
+            val builder = AlertDialog.Builder(this)
+            builder.setMessage("Deseas Salir?")
+            builder.setPositiveButton("Aceptar"){
+                    dialog ,whitch ->
+                finishAffinity()
+            }
+            builder.setNegativeButton("Cancelar"){
+                    dialog ,whitch ->
+            }
+            builder.show()
         })
     }
 }
