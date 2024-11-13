@@ -89,21 +89,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10sp"
                 android:layout_marginEnd="10sp"
-                android:text="@string/btnCalcular"/>
+                android:text="@string/calcular"/>
             <Button
                 android:id="@+id/btnLimpiar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10sp"
                 android:layout_marginEnd="10sp"
-                android:text="@string/btnLimpiar"/>
+                android:text="@string/Limpiar"/>
             <Button
                 android:id="@+id/btnCerrar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10sp"
                 android:layout_marginEnd="10sp"
-                android:text="@string/btnCerrar"/>
+                android:text="@string/cerrar"/>
         </LinearLayout>
         
     </LinearLayout>

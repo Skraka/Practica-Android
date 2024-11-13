@@ -54,6 +54,10 @@ class menuActivity : AppCompatActivity() {
             val intent = Intent(this,Grados::class.java)
             startActivity(intent)
         })
+        crvMoneda.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this,Monedas::class.java)
+            startActivity(intent)
+        })
         //asd
         crvSalir.setOnClickListener(View.OnClickListener {
             val builder = AlertDialog.Builder(this)
