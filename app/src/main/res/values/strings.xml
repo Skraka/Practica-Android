@@ -60,8 +60,9 @@
     <string name="precio">Valor del automovil</string>
     <string name="po">Porcentaje de pago inicial</string>
     <string name="plazos">Plazos</string>
-    <string name="pmensual">Pago mensual</string>
+    <string name="pmensual">Pago mensual: </string>
     <string name="pinicial">Pago inicial</string>
-    <string name="tfin">Total a financiar</string>
+    <string name="porinicial">Porcentaje de pago inicial: </string>
+    <string name="tfin">Total a financiar: </string>
 
 </resources>

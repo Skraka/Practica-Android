@@ -59,7 +59,7 @@ class menuActivity : AppCompatActivity() {
             startActivity(intent)
         })
         crvCotizacion.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this,Cotizacion::class.java)
+            val intent = Intent(this,loginCotizacion::class.java)
             startActivity(intent)
         })
         crvSalir.setOnClickListener(View.OnClickListener {
