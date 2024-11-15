@@ -58,7 +58,10 @@ class menuActivity : AppCompatActivity() {
             val intent = Intent(this,Monedas::class.java)
             startActivity(intent)
         })
-        //asd
+        crvCotizacion.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this,Cotizacion::class.java)
+            startActivity(intent)
+        })
         crvSalir.setOnClickListener(View.OnClickListener {
             val builder = AlertDialog.Builder(this)
             builder.setMessage("Deseas Salir?")

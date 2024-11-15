@@ -28,7 +28,7 @@
 
     <!-- Strign Actividad Grados -->
     <string name="lblGrados">Grados</string>
-    <string name="lblCantidad">Captura la cantdad de grados</string>
+    <string name="lblCantidad">Captura la cantidad de grados</string>
     <string name="cel">Celsius a Fahrenheit</string>
     <string name="far">Fahrenheit a Celsius</string>
     <string name="res">Resultado</string>
@@ -46,5 +46,22 @@
     <string name="dolara">19.75</string>
     <string name="dolarc">14.75</string>
     <string name="euro">22.02</string>
+
+    <!-- Strign Actividad Cotizacion -->
+    <string name="marca">Toyota</string>
+    <string name="direccion">Av. del Mar 1200</string>
+    <string name="ciudad">Mazatlan, Sinaloa</string>
+    <string name="cliente">Nombre del cliente</string>
+    <string name="lblnombre">Escribe el nombre del cliente</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="regresar">Regresar</string>
+    <string name="folio">No. Folio</string>
+    <string name="des">Descripcion del automovil</string>
+    <string name="precio">Valor del automovil</string>
+    <string name="po">Porcentaje de pago inicial</string>
+    <string name="plazos">Plazos</string>
+    <string name="pmensual">Pago mensual</string>
+    <string name="pinicial">Pago inicial</string>
+    <string name="tfin">Total a financiar</string>
 
 </resources>
