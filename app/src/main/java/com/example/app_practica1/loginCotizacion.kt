@@ -43,6 +43,7 @@ class loginCotizacion : AppCompatActivity() {
             }
             else {
                 val intent = Intent(this,Cotizacion::class.java)
+                finish()
                 intent.putExtra("cliente", txtCliente.text.toString())
                 startActivity(intent)
             }
