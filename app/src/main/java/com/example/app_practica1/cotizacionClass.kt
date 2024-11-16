@@ -17,11 +17,11 @@ class cotizacionClass:Serializable {
         this.plazos = 0
     }
     fun calcularPorcentajeInicial():Float {
-        porPagInicial = (pagoInicial/precio)*100
+        porPagInicial = precio*(pagoInicial / 100)
         return porPagInicial
     }
     fun calcularTotalFin():Float{
-        return this.precio-this.pagoInicial
+        return this.precio-this.porPagInicial
     }
     fun calcularPagoMensual():Float{
         return this.calcularTotalFin()/this.plazos

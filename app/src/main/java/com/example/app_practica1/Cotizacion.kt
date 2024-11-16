@@ -91,7 +91,7 @@ class Cotizacion : AppCompatActivity() {
                 if(rdb36.isChecked) cotizacion.plazos = 36
                 if(rdb48.isChecked) cotizacion.plazos = 48
 
-                lblPorcentajeInicial.text = "Porcentaje de pago inicial: " + cotizacion.calcularPorcentajeInicial().toString() + "%"
+                lblPorcentajeInicial.text = "Porcentaje de pago inicial: " + cotizacion.calcularPorcentajeInicial().toString()
                 lblTotalFin.text = "Total a financiar: " + cotizacion.calcularTotalFin()
                 lblPagoMensual.text = "Pago mensual: " + cotizacion.calcularPagoMensual()
             }
